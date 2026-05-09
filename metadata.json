@@ -1,0 +1,5 @@
+{
+  "name": "Polymarket Whale Monitor",
+  "description": "Real-time monitor for large trades on Polymarket with conviction scoring.",
+  "requestFramePermissions": []
+}
