@@ -526,6 +526,10 @@ async function startServer() {
     });
   });
 
+  app.get('/api/ping', (req, res) => {
+    res.status(200).send('ok');
+  });
+
   app.get('/api/stream', (req, res) => {
     res.setHeader('Content-Type', 'text/event-stream');
     res.setHeader('Cache-Control', 'no-cache');
